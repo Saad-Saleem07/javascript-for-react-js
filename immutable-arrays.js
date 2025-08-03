@@ -13,3 +13,6 @@ const items = [...cart].sort((a,b) => a.lenght-b.lenght);
 
 console.log(cart);
 console.log(items);
+
+const newCart = [...cart, "Sugar"];
+console.log(newCart);
